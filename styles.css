@@ -3,11 +3,79 @@
   padding: 0;
 }
 
+html, body, nav {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+@font-face {
+  src: url(fonts/ocr.woff);
+  font-family: ocr;
+}
+
+nav {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: 5vw;
+  background-color: white;
+  -webkit-box-shadow: 0vw -0.2vw 1vw -0.2vw rgba(0, 0, 0, 0.363);
+          box-shadow: 0vw -0.2vw 1vw -0.2vw rgba(0, 0, 0, 0.363);
+}
+
+nav .navCont {
+  margin: 1.2vw 0vw 0vw 0vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-right: 1vw;
+}
+
+nav .navCont .navBtns {
+  padding: 0vw .4vw .2vw .4vw;
+  font-size: 2vw;
+  text-decoration: none;
+  margin: 0vw 2vw 0vw 2vw;
+  color: #1141ff;
+  font-family: ocr;
+}
+
+.logo {
+  width: 7.5vw;
+  height: 7vw;
+  position: absolute;
+  margin: -92vw 0vw 0vw -22vw;
+}
+
+.intro {
+  font-size: 2vw;
+  font-family: ocr;
+  float: right;
+  margin: -108vw 0vw 0vw 0vw;
+  background-color: #262626;
+  padding: 3vw 15vw 3vw 3vw;
+  color: white;
+  -webkit-box-shadow: -0.4vw 0.5vw 0.8vw -0.3vw rgba(4, 29, 255, 0.452);
+          box-shadow: -0.4vw 0.5vw 0.8vw -0.3vw rgba(4, 29, 255, 0.452);
+}
+
+.intro span {
+  color: #1141ff;
+}
+
 .sample1 {
   width: 120vw;
   height: 140vw;
   margin: -20vw 0vw 0vw -40vw;
-  color: #0134FF;
+  color: #1141ff;
   -webkit-animation: diagonal1 19s infinite linear;
           animation: diagonal1 19s infinite linear;
 }

@@ -2,11 +2,63 @@
     margin: 0;
     padding: 0;
 }
-$color-primary: #0134FF;
+html, body, nav {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+@font-face {
+    src: url(fonts/ocr.woff);
+    font-family: ocr;}
+
+$color-primary: #1141ff;
 $color-second: #262626;
 $color-third: #FF1A1A;
+nav{
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 5vw;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0vw -.2vw 1vw -.2vw rgba(0, 0, 0, 0.363);
+    .navCont{
+        margin: 1.2vw 0vw 0vw 0vw;
+        justify-content: center;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        margin-right: 1vw;
+        .navBtns{
+            // border: .2vw solid $color-primary;
+            padding: 0vw .4vw .2vw .4vw;
+            font-size: 2vw;
+            text-decoration: none;
+            margin: 0vw 2vw 0vw 2vw;
+            color: $color-primary;
+            font-family: ocr;
+        }
+    }
 
+}
+.logo{
+    width: 7.5vw;
+    height: 7vw;
+    position: absolute;
+    margin: -92vw 0vw 0vw -22vw;
+}
 
+.intro{
+    font-size: 2vw;
+    font-family: ocr;
+    float: right;
+    margin: -108vw 0vw 0vw 0vw;
+    background-color: #262626;
+    padding: 3vw 15vw 3vw 3vw;
+    color: white;
+    box-shadow: -.4vw .5vw .8vw -.3vw rgba(4, 29, 255, 0.452);
+    span{
+        color: $color-primary;
+    }
+}
 .sample1{
     width: 120vw;
     height: 140vw;
