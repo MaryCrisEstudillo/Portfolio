@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+$color-primary: #0134FF;
+$color-second: #262626;
+$color-third: #FF1A1A;
+
+
+.sample1{
+    width: 120vw;
+    height: 140vw;
+    margin: -20vw 0vw 0vw -40vw;
+    color:$color-primary;
+    animation: diagonal1 19s infinite linear;
+}
+@keyframes diagonal1 {
+
+    0%       {transform: translate(30px, -100px);}
+
+    100%     { transform: translate(610px, -900px);}
+}
+@keyframes diagonal2 {
+
+    0%       {transform: translate(610px, -900px);}
+
+    100%     { transform: translate(30px, -100px);}
+}
+#designID{
+    margin: -120vw 0vw 0vw -65vw;
+    animation: diagonal2 20s infinite linear;
+}
+#devID{
+    margin: -120vw 0vw 0vw -136.5vw;
+    animation: diagonal1 19s infinite linear;
+}
+#designID2{
+    margin: -120vw 0vw 0vw -77vw;
+    animation: diagonal2 20s infinite linear;
+}

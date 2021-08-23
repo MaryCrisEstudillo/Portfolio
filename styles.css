@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sample1 {
+  width: 120vw;
+  height: 140vw;
+  margin: -20vw 0vw 0vw -40vw;
+  color: #0134FF;
+  -webkit-animation: diagonal1 19s infinite linear;
+          animation: diagonal1 19s infinite linear;
+}
+
+@-webkit-keyframes diagonal1 {
+  0% {
+    -webkit-transform: translate(30px, -100px);
+            transform: translate(30px, -100px);
+  }
+  100% {
+    -webkit-transform: translate(610px, -900px);
+            transform: translate(610px, -900px);
+  }
+}
+
+@keyframes diagonal1 {
+  0% {
+    -webkit-transform: translate(30px, -100px);
+            transform: translate(30px, -100px);
+  }
+  100% {
+    -webkit-transform: translate(610px, -900px);
+            transform: translate(610px, -900px);
+  }
+}
+
+@-webkit-keyframes diagonal2 {
+  0% {
+    -webkit-transform: translate(610px, -900px);
+            transform: translate(610px, -900px);
+  }
+  100% {
+    -webkit-transform: translate(30px, -100px);
+            transform: translate(30px, -100px);
+  }
+}
+
+@keyframes diagonal2 {
+  0% {
+    -webkit-transform: translate(610px, -900px);
+            transform: translate(610px, -900px);
+  }
+  100% {
+    -webkit-transform: translate(30px, -100px);
+            transform: translate(30px, -100px);
+  }
+}
+
+#designID {
+  margin: -120vw 0vw 0vw -65vw;
+  -webkit-animation: diagonal2 20s infinite linear;
+          animation: diagonal2 20s infinite linear;
+}
+
+#devID {
+  margin: -120vw 0vw 0vw -136.5vw;
+  -webkit-animation: diagonal1 19s infinite linear;
+          animation: diagonal1 19s infinite linear;
+}
+
+#designID2 {
+  margin: -120vw 0vw 0vw -77vw;
+  -webkit-animation: diagonal2 20s infinite linear;
+          animation: diagonal2 20s infinite linear;
+}
+/*# sourceMappingURL=styles.css.map */
