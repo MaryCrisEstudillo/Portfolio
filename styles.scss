@@ -13,6 +13,7 @@ html, body, nav {
 $color-primary: #1141ff;
 $color-second: #262626;
 $color-third: #FF1A1A;
+////////////////////////////// section 1//////////////////////////////////////
 nav{
     z-index: 1;
     position: absolute;
@@ -50,7 +51,7 @@ nav{
     font-size: 2vw;
     font-family: ocr;
     float: right;
-    margin: -108vw 0vw 0vw 0vw;
+    margin: -110vw 0vw 0vw 0vw;
     background-color: #262626;
     padding: 3vw 15vw 3vw 3vw;
     color: white;
@@ -89,4 +90,42 @@ nav{
 #designID2{
     margin: -120vw 0vw 0vw -77vw;
     animation: diagonal2 20s infinite linear;
+}
+
+////////////////////////////section 2///////////////////////////////////////
+#aboutSection{
+    width: 100vw;
+    height: 55vw;
+    background-color:$color-second;
+    position: absolute;
+    top: 65vw;
+    .mypic{
+        width: 38vw;
+        height: 55vw;
+        margin: 0vw 0vw 0vw 13vw;
+    }
+    .aboutMe{
+        width: 9.5vw;
+        padding: .5vw;
+        font-size: 1.8vw;
+        font-family: ocr;
+        background-color: white;
+        color: $color-primary;
+        transform: rotate(-90deg);
+        margin: -40vw 0vw 0vw 7.5vw;
+    }
+    .bigAbout{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14.5vw;
+        color: #1f1f1f;
+        margin: -11vw 0vw 0vw 52vw;
+    }
+    .aboutParagraph{
+        width: 35vw;
+        text-align: justify;
+        color: white;
+        font-family: ocr;
+        font-size: 1.2vw;
+        margin: -5vw 0vw 0vw 55vw;
+    }
 }
