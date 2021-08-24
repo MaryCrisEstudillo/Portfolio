@@ -98,7 +98,7 @@ nav{
     height: 55vw;
     background-color:$color-second;
     position: absolute;
-    top: 65vw;
+    top: 50vw;
     .mypic{
         width: 38vw;
         height: 55vw;
@@ -117,8 +117,8 @@ nav{
     .bigAbout{
         font-family: 'Montserrat', sans-serif;
         font-size: 14.5vw;
-        color: #1f1f1f;
-        margin: -11vw 0vw 0vw 52vw;
+        color: #222222;
+        margin: -17vw 0vw 0vw 52vw;
     }
     .aboutParagraph{
         width: 35vw;
@@ -126,6 +126,79 @@ nav{
         color: white;
         font-family: ocr;
         font-size: 1.2vw;
-        margin: -5vw 0vw 0vw 55vw;
+        margin: -3vw 0vw 0vw 55vw;
+    }
+}
+#skillsSection{
+    width: 100vw;
+    height: 22vw;
+    background-color: rgb(216, 255, 41);
+    margin: -40vw 0vw 0vw 0vw;
+    .compy{
+        color: $color-second;
+        font-size: 2vw;
+        position: absolute;
+        width: 100vw;
+        text-align: center;
+        font-family: ocr;
+        margin: 7vw 0vw 0vw 0vw;
+
+    }
+    .competencies{
+        color: $color-second;
+        font-size: 1.5vw;
+        position: absolute;
+        width: 100vw;
+        text-align: center;
+        font-family: ocr;
+        margin: 12vw 0vw 0vw 0vw;
+        span{
+            text-decoration:line-through;
+            margin: 0vw 1vw 0vw 1vw;
+            padding: .5vw;
+            border-radius: 2vw;
+        }
+    }
+}
+
+#projectsSection{
+    height: 45vw;
+    color: $color-primary;
+    font-size: 3vw;
+    font-family: ocr;
+    width: 100vw;
+    text-align: center;
+    margin: 8vw 0vw 0vw 0vw;
+    .backprojects{
+        font-size: 20vw;
+        color: $color-primary;
+        opacity: 3.5%;
+        font-family: 'Montserrat', sans-serif;
+        margin: -12vw 0vw 0vw 5vw;
+        position: absolute;
+    }
+    .projects{
+        margin: 3vw 0vw 0vw 5vw;
+        padding: 1vw;
+    }
+    .projectsCont1{
+        font-size: 2vw;
+        width:40vw;
+        display: flex;
+        text-align: left;
+        flex-direction: column;
+        float: left;
+        margin: -3vw 0vw 0vw 3vw;
+        .projNumber{
+            font-size: 6vw;
+        }
+        .projtitle{
+            font-size: 2vw;
+        }
+    }
+    #projectsCont2{
+        width: 45vw;
+        float: right;
+        margin: -3vw 8vw 0vw 0vw;
     }
 }

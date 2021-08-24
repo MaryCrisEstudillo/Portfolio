@@ -147,7 +147,7 @@ nav .navCont .navBtns {
   height: 55vw;
   background-color: #262626;
   position: absolute;
-  top: 65vw;
+  top: 50vw;
 }
 
 #aboutSection .mypic {
@@ -171,8 +171,8 @@ nav .navCont .navBtns {
 #aboutSection .bigAbout {
   font-family: 'Montserrat', sans-serif;
   font-size: 14.5vw;
-  color: #1f1f1f;
-  margin: -11vw 0vw 0vw 52vw;
+  color: #222222;
+  margin: -17vw 0vw 0vw 52vw;
 }
 
 #aboutSection .aboutParagraph {
@@ -181,6 +181,93 @@ nav .navCont .navBtns {
   color: white;
   font-family: ocr;
   font-size: 1.2vw;
-  margin: -5vw 0vw 0vw 55vw;
+  margin: -3vw 0vw 0vw 55vw;
+}
+
+#skillsSection {
+  width: 100vw;
+  height: 22vw;
+  background-color: #d8ff29;
+  margin: -40vw 0vw 0vw 0vw;
+}
+
+#skillsSection .compy {
+  color: #262626;
+  font-size: 2vw;
+  position: absolute;
+  width: 100vw;
+  text-align: center;
+  font-family: ocr;
+  margin: 7vw 0vw 0vw 0vw;
+}
+
+#skillsSection .competencies {
+  color: #262626;
+  font-size: 1.5vw;
+  position: absolute;
+  width: 100vw;
+  text-align: center;
+  font-family: ocr;
+  margin: 12vw 0vw 0vw 0vw;
+}
+
+#skillsSection .competencies span {
+  text-decoration: line-through;
+  margin: 0vw 1vw 0vw 1vw;
+  padding: .5vw;
+  border-radius: 2vw;
+}
+
+#projectsSection {
+  height: 45vw;
+  color: #1141ff;
+  font-size: 3vw;
+  font-family: ocr;
+  width: 100vw;
+  text-align: center;
+  margin: 8vw 0vw 0vw 0vw;
+}
+
+#projectsSection .backprojects {
+  font-size: 20vw;
+  color: #1141ff;
+  opacity: 3.5%;
+  font-family: 'Montserrat', sans-serif;
+  margin: -12vw 0vw 0vw 5vw;
+  position: absolute;
+}
+
+#projectsSection .projects {
+  margin: 3vw 0vw 0vw 5vw;
+  padding: 1vw;
+}
+
+#projectsSection .projectsCont1 {
+  font-size: 2vw;
+  width: 40vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: left;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  float: left;
+  margin: -3vw 0vw 0vw 3vw;
+}
+
+#projectsSection .projectsCont1 .projNumber {
+  font-size: 6vw;
+}
+
+#projectsSection .projectsCont1 .projtitle {
+  font-size: 2vw;
+}
+
+#projectsSection #projectsCont2 {
+  width: 45vw;
+  float: right;
+  margin: -3vw 8vw 0vw 0vw;
 }
 /*# sourceMappingURL=styles.css.map */
