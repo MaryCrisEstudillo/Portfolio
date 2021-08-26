@@ -4,7 +4,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,13 +23,13 @@
     <img class="sample1" id="designID" src="images/diagonaltext2.png" alt="design"></img>
     <img class="sample1" id="devID" src="images/diagonaltext1.png" alt="design"></img>
     <img class="sample1" id="designID2" src="images/diagonaltext2.png" alt="design"></img>
-    <img class="logo" src="images/mc.png" alt="EmcieLogo">
-    <p class="intro">Hi, I'm <span> MC,</span> <br>I code to make<br>life<span> easy.</span></p>
+    <img class="logo anim" src="images/mc.png" alt="EmcieLogo" data-delay=".3s">
+    <p class="intro anim" data-delay="0s">Hi, I'm <span> MC,</span> <br>I code to make<br>life<span> easy.</span></p>
     <section id="aboutSection">
-        <img class="mypic" src="images/final.png" alt="MaryCris">
-        <p class="aboutMe">About Me</p>
+        <img class="mypic anim" src="images/final.png" alt="MaryCris" data-delay=".5s">
+        <p class="aboutMe vert" data-delay=".3s">About Me</p>
         <p class="bigAbout">About</p>
-        <p class="aboutParagraph">sed do eiusmod tempor incididunt ut labore <br> et dolore magna aliqua. enim ad minim veniam,<br> <br>  quis nostrud exercitation ullamco laboris nisi<br> 
+        <p class="aboutParagraph anim" data-delay=".8s">sed do eiusmod tempor incididunt ut labore <br> et dolore magna aliqua. enim ad minim veniam,<br> <br>  quis nostrud exercitation ullamco laboris nisi<br> 
 
             ut aliquip ex ea commodo consequat. Duis aute<br> <br>  irure dolor in reprehenderit
             
@@ -42,7 +41,7 @@
             
         </p>
     </section>
-    <section id="skillsSection">
+    <section id="skillsSection" class="animRight" data-delay=".2s">
         <p class="compy">COMPETENCIES</p>
         <p class="competencies"> 
             <span>PHOTOSHOP</span>
@@ -63,7 +62,7 @@
     </section>
     <section id="projectsSection">Projects
         <p class="backprojects">Projects</p>
-        <div class="projectsCont1">
+        <div class="projectsCont1 anim" data-delay=".2s">
             <div class="projects" id="pOne">
                 <span class="projNumber">01.</span>
                 <span class="projTitle"><a href="https://marycrisestudillo.github.io/Takoyakiko-LandingPage/">Takoyakiko</a></span>
@@ -77,7 +76,7 @@
                 <span class="projTitle"><a href="https://marycrisestudillo.github.io/Banking-App/">Banking App</a></span>
             </div>
         </div>
-        <div class="projectsCont1" id="projectsCont2">
+        <div class="projectsCont1 animLeft" id="projectsCont2" data-delay=".2s">
             <div class="projects" id="pFour">
                 <span class="projNumber">04.</span>
                 <span class="projTitle"><a href=" https://marycrisestudillo.github.io/Get-Go-App/">GetGo App</a></span>
@@ -99,4 +98,5 @@
 </body>
 <footer>
 </footer>
+<script src="javascript.js"></script>
 </html>

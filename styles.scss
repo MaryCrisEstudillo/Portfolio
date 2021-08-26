@@ -5,6 +5,7 @@
 html, body, nav {
     max-width: 100%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 @font-face {
     src: url(fonts/ocr.woff);
@@ -45,6 +46,7 @@ nav{
     height: 7vw;
     position: absolute;
     margin: -92vw 0vw 0vw -22vw;
+    z-index: 4;
 }
 
 .intro{
@@ -131,7 +133,7 @@ nav{
 }
 #skillsSection{
     width: 100vw;
-    height: 22vw;
+    height: 20vw;
     background-color: rgb(216, 255, 41);
     margin: -40vw 0vw 0vw 0vw;
     .compy{
@@ -141,7 +143,7 @@ nav{
         width: 100vw;
         text-align: center;
         font-family: ocr;
-        margin: 7vw 0vw 0vw 0vw;
+        margin: 3vw 0vw 0vw 0vw;
 
     }
     .competencies{
@@ -151,7 +153,7 @@ nav{
         width: 100vw;
         text-align: center;
         font-family: ocr;
-        margin: 12vw 0vw 0vw 0vw;
+        margin: 10vw 0vw 0vw 0vw;
         span{
             text-decoration:line-through;
             margin: 0vw 1vw 0vw 1vw;
@@ -200,5 +202,68 @@ nav{
         width: 45vw;
         float: right;
         margin: -3vw 8vw 0vw 0vw;
+    }
+}
+
+//////////// for scroll transition animation/////////////
+.anim{
+    opacity: 0;
+}
+.vert{
+    opacity: 0;
+}
+.animRight{
+    opacity: 0;
+}
+.animLeft{
+    opacity: 0;
+}
+
+@keyframes anim1H {
+    from {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+
+    }
+}
+
+@keyframes anim2V {
+    from {
+        // margin-top: -3vw;
+        transform: rotate(-90deg);
+        opacity: 0;
+    }
+    to {
+        transform: rotate(-90deg);
+        opacity: 1;
+
+    }
+}
+
+@keyframes animRight {
+    from {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+
+    }
+}
+
+@keyframes animLeft {
+    from {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(-100px);
+        opacity: 1;
+
     }
 }
