@@ -173,7 +173,7 @@ nav .navCont .navBtns {
 #aboutSection .bigAbout {
   font-family: 'Montserrat', sans-serif;
   font-size: 14.5vw;
-  color: #1a1a1a;
+  color: #0f0f0f;
   margin: -17vw 0vw 0vw 52vw;
 }
 
@@ -245,6 +245,20 @@ nav .navCont .navBtns {
   width: 80vw;
 }
 
+#projectsSection .projectSC {
+  margin: 9vw 0vw 0vw 25vw;
+  font-size: 1.2vw;
+  background-color: #262626;
+  text-align: center;
+  width: 11vw;
+  padding: .3vw;
+}
+
+#projectsSection .projectSC .sourceCode {
+  text-decoration: none;
+  color: white;
+}
+
 #projectsSection .projectsCont1 {
   font-size: 2vw;
   width: 40vw;
@@ -269,6 +283,16 @@ nav .navCont .navBtns {
   margin-right: 30vw;
 }
 
+#projectsSection .projectsCont1 .projTitle .textdeco {
+  text-decoration: none;
+  color: #1141ff;
+}
+
+#projectsSection .projectsCont1 .projTitle .textdeco:hover {
+  text-decoration: underline;
+  color: #262626;
+}
+
 #projectsSection .projectsCont1 .projCode {
   font-size: 1vw;
   margin-top: 5vw;
@@ -278,6 +302,35 @@ nav .navCont .navBtns {
   width: 45vw;
   float: right;
   margin: -3vw 8vw 0vw 0vw;
+}
+
+#contactSection {
+  height: 14vw;
+  background-color: #262626;
+  margin-top: 7vw;
+  padding-top: 6vw;
+}
+
+#contactSection .contactsTitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17vw;
+  position: absolute;
+  opacity: 30%;
+  margin: -7vw 0vw 0vw 11vw;
+  color: #0f0f0f;
+  z-index: 0;
+}
+
+#contactSection p {
+  color: white;
+  font-family: ocr;
+  text-align: center;
+  font-size: 1.5vw;
+  border: .15vw solid white;
+  margin: .8vw 44vw 0vw 44vw;
+  position: relative;
+  z-index: 1;
+  padding: .2vw;
 }
 
 .anim {
