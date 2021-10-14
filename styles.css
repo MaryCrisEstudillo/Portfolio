@@ -346,7 +346,7 @@ nav .navCont .navBtns {
 
 #contactSection #modalContact {
   background-color: #ffffff;
-  width: 22vw;
+  width: 23vw;
   height: 5vw;
   position: relative;
   margin: -12vw 0vw 0vw 57vw;
@@ -354,6 +354,7 @@ nav .navCont .navBtns {
   padding-top: 2vw;
   visibility: hidden;
   cursor: pointer;
+  font-family: ocr;
 }
 
 .anim {
