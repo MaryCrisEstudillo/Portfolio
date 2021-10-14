@@ -173,7 +173,7 @@ nav .navCont .navBtns {
 #aboutSection .bigAbout {
   font-family: 'Montserrat', sans-serif;
   font-size: 14.5vw;
-  color: #222222;
+  color: #1a1a1a;
   margin: -17vw 0vw 0vw 52vw;
 }
 
@@ -242,6 +242,7 @@ nav .navCont .navBtns {
 #projectsSection .projects {
   margin: 3vw 0vw 0vw 5vw;
   padding: 1vw;
+  width: 80vw;
 }
 
 #projectsSection .projectsCont1 {
@@ -263,8 +264,14 @@ nav .navCont .navBtns {
   font-size: 6vw;
 }
 
-#projectsSection .projectsCont1 .projtitle {
+#projectsSection .projectsCont1 .projTitle {
   font-size: 2vw;
+  margin-right: 30vw;
+}
+
+#projectsSection .projectsCont1 .projCode {
+  font-size: 1vw;
+  margin-top: 5vw;
 }
 
 #projectsSection #projectsCont2 {
