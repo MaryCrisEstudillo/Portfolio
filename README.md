@@ -1,1 +1,1 @@
-Check out my portfolio here -> https://github.com/MaryCrisEstudillo/portfolio/settings/pages
+Check out my portfolio here -> https://marycrisestudillo.github.io/portfolio/
