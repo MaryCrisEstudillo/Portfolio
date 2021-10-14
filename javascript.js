@@ -71,3 +71,13 @@ entries.forEach(entry => {
 animationL.forEach(animL => {
        observer.observe(animL)
 })
+
+
+function closeModal() {
+    var modal = document.getElementById("modalContact");
+    if (modal.style.visibility === "hidden") {
+      modal.style.visibility = "visible";
+    } else {
+      modal.style.visibility = "hidden";
+    }
+  }
