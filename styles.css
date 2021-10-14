@@ -181,7 +181,7 @@ nav .navCont .navBtns {
 #aboutSection .bigAbout {
   font-family: 'Montserrat', sans-serif;
   font-size: 13.5vw;
-  color: #0f0f0f;
+  color: #1f1f1f;
   margin: -17vw 0vw 0vw 52vw;
 }
 
@@ -325,9 +325,8 @@ nav .navCont .navBtns {
   font-family: 'Montserrat', sans-serif;
   font-size: 17vw;
   position: absolute;
-  opacity: 30%;
   margin: -7vw 0vw 0vw 11vw;
-  color: #0f0f0f;
+  color: #1f1f1f;
   z-index: 0;
 }
 
