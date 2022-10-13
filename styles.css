@@ -13,7 +13,6 @@ html, body, nav {
   src: url(fonts/ocr.woff);
   font-family: ocr;
 }
-
 .resumeImg {
   background-position: center;
   background-repeat: no-repeat;
@@ -26,29 +25,19 @@ nav {
   position: absolute;
   width: 100%;
   height: 5vw;
-  background-color: white;
-  -webkit-box-shadow: 0vw -0.2vw 1vw -0.2vw rgba(0, 0, 0, 0.363);
-          box-shadow: 0vw -0.2vw 1vw -0.2vw rgba(0, 0, 0, 0.363);
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0vw -0.2vw 1vw -0.2vw rgba(0, 0, 0, 0.363);
 }
-
 nav .navCont {
   margin: 1.2vw 0vw 0vw 0vw;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   list-style-type: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   margin-right: 1vw;
 }
-
 nav .navCont .navBtns {
-  padding: 0vw .4vw .2vw .4vw;
+  padding: 0vw 0.4vw 0.2vw 0.4vw;
   font-size: 2vw;
   text-decoration: none;
   margin: 0vw 2vw 0vw 2vw;
@@ -73,10 +62,8 @@ nav .navCont .navBtns {
   background-color: #262626;
   padding: 3vw 15vw 3vw 3vw;
   color: white;
-  -webkit-box-shadow: -0.4vw 0.5vw 0.8vw -0.3vw rgba(4, 29, 255, 0.452);
-          box-shadow: -0.4vw 0.5vw 0.8vw -0.3vw rgba(4, 29, 255, 0.452);
+  box-shadow: -0.4vw 0.5vw 0.8vw -0.3vw rgba(4, 29, 255, 0.452);
 }
-
 .intro span {
   color: #1141ff;
 }
@@ -92,48 +79,37 @@ nav .navCont .navBtns {
 
 @-webkit-keyframes diagonal1 {
   0% {
-    -webkit-transform: translate(30px, -100px);
-            transform: translate(30px, -100px);
+    transform: translate(30px, -100px);
   }
   100% {
-    -webkit-transform: translate(610px, -900px);
-            transform: translate(610px, -900px);
+    transform: translate(610px, -900px);
   }
 }
 
 @keyframes diagonal1 {
   0% {
-    -webkit-transform: translate(30px, -100px);
-            transform: translate(30px, -100px);
+    transform: translate(30px, -100px);
   }
   100% {
-    -webkit-transform: translate(610px, -900px);
-            transform: translate(610px, -900px);
+    transform: translate(610px, -900px);
   }
 }
-
 @-webkit-keyframes diagonal2 {
   0% {
-    -webkit-transform: translate(610px, -900px);
-            transform: translate(610px, -900px);
+    transform: translate(610px, -900px);
   }
   100% {
-    -webkit-transform: translate(30px, -100px);
-            transform: translate(30px, -100px);
+    transform: translate(30px, -100px);
   }
 }
-
 @keyframes diagonal2 {
   0% {
-    -webkit-transform: translate(610px, -900px);
-            transform: translate(610px, -900px);
+    transform: translate(610px, -900px);
   }
   100% {
-    -webkit-transform: translate(30px, -100px);
-            transform: translate(30px, -100px);
+    transform: translate(30px, -100px);
   }
 }
-
 #designID {
   margin: -120vw 0vw 0vw -65vw;
   -webkit-animation: diagonal2 20s infinite linear;
@@ -159,32 +135,27 @@ nav .navCont .navBtns {
   position: absolute;
   top: 50vw;
 }
-
 #aboutSection .mypic {
   width: 38vw;
   height: 55vw;
   margin: 0vw 0vw 0vw 13vw;
 }
-
 #aboutSection .aboutMe {
   width: 9.5vw;
-  padding: .5vw;
+  padding: 0.5vw;
   font-size: 1.8vw;
   font-family: ocr;
   background-color: white;
   color: #1141ff;
-  -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg);
+  transform: rotate(-90deg);
   margin: -40vw 0vw 0vw 7.5vw;
 }
-
 #aboutSection .bigAbout {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 13.5vw;
   color: #1f1f1f;
   margin: -17vw 0vw 0vw 52vw;
 }
-
 #aboutSection .aboutParagraph {
   width: 35vw;
   text-align: justify;
@@ -197,10 +168,9 @@ nav .navCont .navBtns {
 #skillsSection {
   width: 100vw;
   height: 20vw;
-  background-color: #d8ff29;
+  background-color: rgb(216, 255, 41);
   margin: -40vw 0vw 0vw 0vw;
 }
-
 #skillsSection .compy {
   color: #262626;
   font-size: 2vw;
@@ -210,7 +180,6 @@ nav .navCont .navBtns {
   font-family: ocr;
   margin: 3vw 0vw 0vw 0vw;
 }
-
 #skillsSection .competencies {
   color: #262626;
   font-size: 1.5vw;
@@ -220,11 +189,10 @@ nav .navCont .navBtns {
   font-family: ocr;
   margin: 10vw 0vw 0vw 0vw;
 }
-
 #skillsSection .competencies span {
   text-decoration: line-through;
   margin: 0vw 1vw 0vw 1vw;
-  padding: .5vw;
+  padding: 0.5vw;
   border-radius: 2vw;
 }
 
@@ -237,77 +205,61 @@ nav .navCont .navBtns {
   text-align: center;
   margin: 8vw 0vw 0vw 0vw;
 }
-
 #projectsSection .backprojects {
   font-size: 20vw;
   color: #1141ff;
   opacity: 3.5%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: -12vw 0vw 0vw 5vw;
   position: absolute;
 }
-
 #projectsSection .projects {
-  margin: 3vw 0vw 0vw 5vw;
+  margin-left: 5vw;
   padding: 1vw;
   width: 80vw;
 }
-
 #projectsSection .projectSC {
-  margin: 9vw 0vw 0vw 25vw;
+  margin: 4vw 0vw 3vw 25vw;
   font-size: 1.2vw;
   background-color: #262626;
   text-align: center;
   width: 11vw;
-  padding: .3vw;
+  padding: 0.3vw;
   cursor: pointer;
 }
-
 #projectsSection .projectSC .sourceCode {
   text-decoration: none;
   color: white;
 }
-
 #projectsSection .projectsCont1 {
   font-size: 2vw;
   width: 40vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   text-align: left;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   float: left;
   margin: -3vw 0vw 0vw 3vw;
 }
-
 #projectsSection .projectsCont1 .projNumber {
   font-size: 6vw;
 }
-
 #projectsSection .projectsCont1 .projTitle {
   font-size: 2vw;
   margin-right: 30vw;
   cursor: pointer;
 }
-
 #projectsSection .projectsCont1 .projTitle .textdeco {
   text-decoration: none;
   color: #1141ff;
 }
-
 #projectsSection .projectsCont1 .projTitle .textdeco:hover {
   text-decoration: underline;
   color: #262626;
 }
-
 #projectsSection .projectsCont1 .projCode {
   font-size: 1vw;
   margin-top: 5vw;
 }
-
 #projectsSection #projectsCont2 {
   width: 45vw;
   float: right;
@@ -320,37 +272,33 @@ nav .navCont .navBtns {
   margin-top: 7vw;
   padding-top: 6vw;
 }
-
 #contactSection .contactsTitle {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 17vw;
   position: absolute;
   margin: -7vw 0vw 0vw 11vw;
   color: #1f1f1f;
   z-index: 0;
 }
-
 #contactSection p {
   color: white;
   font-family: ocr;
   text-align: center;
   font-size: 1.2vw;
-  border: .15vw solid white;
-  margin: .8vw 44vw 0vw 44vw;
+  border: 0.15vw solid white;
+  margin: 0.8vw 44vw 0vw 44vw;
   position: relative;
   z-index: 1;
-  padding: .2vw;
+  padding: 0.2vw;
   cursor: pointer;
 }
-
 #contactSection #modalContact {
   background-color: #ffffff;
   width: 23vw;
-  height: 10vw;
   position: relative;
   margin: -12vw 0vw 0vw 57vw;
   text-align: center;
-  padding-top: 2vw;
+  padding: 2vw;
   visibility: hidden;
   cursor: pointer;
   font-family: ocr;
@@ -374,105 +322,82 @@ nav .navCont .navBtns {
 
 @-webkit-keyframes anim1H {
   from {
-    -webkit-transform: translateX(-100px);
-            transform: translateX(-100px);
+    transform: translateX(-100px);
     opacity: 0;
   }
   to {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
+    transform: translateX(0);
     opacity: 1;
   }
 }
 
 @keyframes anim1H {
   from {
-    -webkit-transform: translateX(-100px);
-            transform: translateX(-100px);
+    transform: translateX(-100px);
     opacity: 0;
   }
   to {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
+    transform: translateX(0);
     opacity: 1;
   }
 }
-
 @-webkit-keyframes anim2V {
   from {
-    -webkit-transform: rotate(-90deg);
-            transform: rotate(-90deg);
+    transform: rotate(-90deg);
     opacity: 0;
   }
   to {
-    -webkit-transform: rotate(-90deg);
-            transform: rotate(-90deg);
+    transform: rotate(-90deg);
     opacity: 1;
   }
 }
-
 @keyframes anim2V {
   from {
-    -webkit-transform: rotate(-90deg);
-            transform: rotate(-90deg);
+    transform: rotate(-90deg);
     opacity: 0;
   }
   to {
-    -webkit-transform: rotate(-90deg);
-            transform: rotate(-90deg);
+    transform: rotate(-90deg);
     opacity: 1;
   }
 }
-
 @-webkit-keyframes animRight {
   from {
-    -webkit-transform: translateY(-100px);
-            transform: translateY(-100px);
+    transform: translateY(-100px);
     opacity: 0;
   }
   to {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
     opacity: 1;
   }
 }
-
 @keyframes animRight {
   from {
-    -webkit-transform: translateY(-100px);
-            transform: translateY(-100px);
+    transform: translateY(-100px);
     opacity: 0;
   }
   to {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
     opacity: 1;
   }
 }
-
 @-webkit-keyframes animLeft {
   from {
-    -webkit-transform: translateX(100px);
-            transform: translateX(100px);
+    transform: translateX(100px);
     opacity: 0;
   }
   to {
-    -webkit-transform: translateX(-100px);
-            transform: translateX(-100px);
+    transform: translateX(-100px);
     opacity: 1;
   }
 }
-
 @keyframes animLeft {
   from {
-    -webkit-transform: translateX(100px);
-            transform: translateX(100px);
+    transform: translateX(100px);
     opacity: 0;
   }
   to {
-    -webkit-transform: translateX(-100px);
-            transform: translateX(-100px);
+    transform: translateX(-100px);
     opacity: 1;
   }
-}
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
